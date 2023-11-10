@@ -1,6 +1,8 @@
+#[allow(dead_code)]
 pub struct Solution;
 
 impl Solution {
+    #[allow(dead_code)]
     pub fn longest_common_prefix(strs: Vec<String>) -> String {
         let mut common: String = strs.get(0).unwrap().clone();
         for str in strs {

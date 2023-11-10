@@ -1,6 +1,8 @@
+#[allow(dead_code)]
 pub struct Solution;
 
 impl Solution {
+    #[allow(dead_code)]
     pub fn reverse_string(s: &mut Vec<char>) {
         let length = s.len();
         for i in 0..(length / 2) {

@@ -1,6 +1,8 @@
-struct Solution;
+#[allow(dead_code)]
+pub struct Solution;
 
 impl Solution {
+    #[allow(dead_code)]
     pub fn array_pair_sum(nums: Vec<i32>) -> i32 {
         let mut sorted_nums = nums.to_owned();
         sorted_nums.sort();
