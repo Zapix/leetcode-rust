@@ -6,3 +6,4 @@ mod remove_element;
 mod max_consecutive_ones;
 mod minimum_size_subarray_sum;
 mod bus_routes;
+mod sort_vowels_in_a_string;
