@@ -8,3 +8,4 @@ mod minimum_size_subarray_sum;
 mod bus_routes;
 mod sort_vowels_in_a_string;
 mod unique_length_3_palindromic;
+mod maximum_element_after_decrementing_and_rearranging;
