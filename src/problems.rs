@@ -12,3 +12,5 @@ mod maximum_element_after_decrementing_and_rearranging;
 mod find_unique_binary_string;
 mod minimize_maximum_pair_sum_in_array;
 mod binary_tree_inorder_traversal;
+mod find_words_than_can_be_formed;
+
