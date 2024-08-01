@@ -16,4 +16,5 @@ mod find_words_than_can_be_formed;
 mod remove_stones_to_minimize_total;
 mod count_number_of_teams;
 mod minimum_deletions_to_make_string_balanced;
+mod filling_bookcase_shelves;
 
