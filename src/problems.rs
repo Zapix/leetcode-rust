@@ -19,4 +19,5 @@ mod minimum_deletions_to_make_string_balanced;
 mod filling_bookcase_shelves;
 mod number_of_senior_citizens;
 mod make_two_arrays_equal_by_reversing;
+mod range_sum_of_sorted_sub_arrays_sums;
 
