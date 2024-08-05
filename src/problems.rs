@@ -20,4 +20,5 @@ mod filling_bookcase_shelves;
 mod number_of_senior_citizens;
 mod make_two_arrays_equal_by_reversing;
 mod range_sum_of_sorted_sub_arrays_sums;
+mod kth_distinct_string_in_array;
 
