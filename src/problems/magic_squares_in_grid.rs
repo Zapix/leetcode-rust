@@ -3,7 +3,7 @@ struct Solution;
 
 #[allow(dead_code)]
 impl Solution {
-    fn check_uniqueness(x: usize, y: usize, grid: &Vec<Vec<i32>>) -> Option<bool> {
+    fn check_uniqueness(x: usize, y: usize, grid: &Vec<Vec<i32>>) -> Option<()> {
         let mut used: [bool; 9] = [false; 9];
 
         for i in -1..2 {
@@ -12,16 +12,16 @@ impl Solution {
                     .get((x as i32 + i) as usize)?
                     .get((y  as i32 + j) as usize)?;
                 if digit < 1 || digit > 9 || used[(digit - 1) as usize] {
-                    return Some(false);
+                    return None;
                 } else {
                     used[(digit - 1) as usize] = true;
                 }
             }
         }
-        Some(true)
+        Some(())
     }
 
-    fn check_sum(x: usize, y: usize, grid: &Vec<Vec<i32>>, mask: [[i32; 2]; 3]) -> Option<bool> {
+    fn check_sum(x: usize, y: usize, grid: &Vec<Vec<i32>>, mask: [[i32; 2]; 3]) -> Option<()> {
         let result = mask
             .map(
                 |[i,j]| *grid
@@ -32,48 +32,29 @@ impl Solution {
             .sum::<i32>();
 
         if result == 15 {
-            Some(true)
+            Some(())
         } else {
             None
         }
     }
-    fn check_magic(x: usize, y: usize, grid: &Vec<Vec<i32>>) -> Option<bool> {
+    fn check_magic(x: usize, y: usize, grid: &Vec<Vec<i32>>) -> Option<()> {
+        Solution::check_uniqueness(x, y, grid)?;
 
-        if !Solution::check_uniqueness(x, y, grid).unwrap_or(false) {
-            return Some(false);
-        }
+        Solution::check_sum(x, y, grid, [[-1, -1], [-1, 0], [-1, 1]])?;
+        Solution::check_sum(x, y, grid, [[0, -1], [0, 0], [0, 1]])?;
+        Solution::check_sum(x, y, grid, [[1, -1], [1, 0], [1, 1]])?;
 
-        if !Solution::check_sum(x, y, grid, [[-1, -1], [-1, 0], [-1, 1]]).unwrap_or(false) {
-            return Some(false);
-        }
-        if !Solution::check_sum(x, y, grid, [[0, -1], [0, 0], [0, 1]]).unwrap_or(false) {
-            return Some(false);
-        }
-        if !Solution::check_sum(x, y, grid, [[1, -1], [1, 0], [1, 1]]).unwrap_or(false) {
-            return Some(false);
-        }
+        Solution::check_sum(x, y, grid, [[-1, -1], [0, -1], [1, -1]])?;
+        Solution::check_sum(x, y, grid, [[-1, 0], [0, 0], [1, 0]])?;
+        Solution::check_sum(x, y, grid, [[-1, 1], [0, 1], [1, 1]])?;
 
-        if !Solution::check_sum(x, y, grid, [[-1, -1], [0, -1], [1, -1]]).unwrap_or(false) {
-            return Some(false);
-        };
-        if !Solution::check_sum(x, y, grid, [[-1, 0], [0, 0], [1, 0]]).unwrap_or(false) {
-            return Some(false);
-        };
-        if !Solution::check_sum(x, y, grid, [[-1, 1], [0, 1], [1, 1]]).unwrap_or(false) {
-            return Some(false);
-        };
+        Solution::check_sum(x, y, grid, [[-1, -1], [0, 0], [1, 1]])?;
+        Solution::check_sum(x, y, grid, [[-1, 1], [0, 0], [1, -1]])?;
 
-        if !Solution::check_sum(x, y, grid, [[-1, -1], [0, 0], [1, 1]]).unwrap_or(false) {
-            return Some(false);
-        };
-        if !Solution::check_sum(x, y, grid, [[-1, 1], [0, 0], [1, -1]]).unwrap_or(false) {
-            return Some(false);
-        };
-
-        Some(true)
+        Some(())
     }
     fn is_magic_square(i: usize, j: usize, grid: &Vec<Vec<i32>>) -> bool {
-        Solution::check_magic(i, j, grid).unwrap_or(false)
+        Solution::check_magic(i, j, grid).is_some()
     }
 
     pub fn num_magic_squares_inside(grid: Vec<Vec<i32>>) -> i32 {
