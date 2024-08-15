@@ -30,4 +30,6 @@ mod minimum_number_of_days_to_disconnect_islinad;
 mod k_th_element_in_a_stream;
 mod combination_sum_ii;
 mod lemonade_change;
+mod kth_smallest_pair_distance;
+
 
