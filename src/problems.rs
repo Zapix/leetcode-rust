@@ -31,5 +31,6 @@ mod k_th_element_in_a_stream;
 mod combination_sum_ii;
 mod lemonade_change;
 mod kth_smallest_pair_distance;
+mod max_distance_in_array;
 
 
