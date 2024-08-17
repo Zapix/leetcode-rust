@@ -33,5 +33,6 @@ mod lemonade_change;
 mod kth_smallest_pair_distance;
 mod max_distance_in_array;
 mod max_distance_in_array_v2;
+mod maximum_number_of_points_with_cost;
 
 
