@@ -37,5 +37,6 @@ mod maximum_number_of_points_with_cost;
 mod ugly_number_ii;
 mod two_keys_keyboard;
 mod minimum_number_of_operations_to_move_all_balls_to_each_box;
+mod stranger_printer;
 
 
