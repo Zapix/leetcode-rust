@@ -40,5 +40,6 @@ mod minimum_number_of_operations_to_move_all_balls_to_each_box;
 mod stranger_printer;
 mod number_complement;
 mod fraction_addition_and_substraction;
+mod find_closest_palindrome;
 
 
