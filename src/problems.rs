@@ -4,6 +4,7 @@ mod binary_tree_postorder_traversal;
 mod bus_routes;
 mod combination_sum_ii;
 mod count_number_of_teams;
+mod count_sub_islands;
 mod filling_bookcase_shelves;
 mod find_closest_palindrome;
 mod find_unique_binary_string;
