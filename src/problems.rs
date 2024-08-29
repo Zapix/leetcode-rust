@@ -29,6 +29,7 @@ mod minimum_deletions_to_make_string_balanced;
 mod minimum_number_of_days_to_disconnect_islinad;
 mod minimum_number_of_operations_to_move_all_balls_to_each_box;
 mod minimum_size_subarray_sum;
+mod most_stones_removed_with_same_row_or_column;
 mod number_complement;
 mod number_of_senior_citizens;
 mod path_max_probability;
