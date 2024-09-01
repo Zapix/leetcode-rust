@@ -49,6 +49,26 @@ mod tests {
         let m = 1;
         let n = 1;
         let result = Solution::construct2_d_array(original, m, n);
-        assert_eq!(vec![vec![1]], result);
+        let expected: Vec<Vec<i32>> = vec![];
+        assert_eq!(expected, result);
+    }
+
+    #[test]
+    fn leeetcode_4() {
+        let original = vec![1, 2, 3, 4, 5, 6];
+        let m = 2;
+        let n = 3;
+        let result = Solution::construct2_d_array(original, m, n);
+        assert_eq!(vec![vec![1, 2, 3], vec![4, 5, 6]], result);
+    }
+
+    #[test]
+    fn leetcode_5() {
+        let original = vec![1, 2, 3, 4, 5, 6];
+        let m = 3;
+        let n = 3;
+        let result = Solution::construct2_d_array(original, m, n);
+        let expected: Vec<Vec<i32>> = vec![];
+        assert_eq!(expected, result);
     }
 }
