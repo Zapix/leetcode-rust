@@ -3,6 +3,7 @@ mod binary_tree_inorder_traversal;
 mod binary_tree_postorder_traversal;
 mod bus_routes;
 mod combination_sum_ii;
+mod convert_1d_array_into_2d_array;
 mod count_number_of_teams;
 mod count_sub_islands;
 mod filling_bookcase_shelves;
