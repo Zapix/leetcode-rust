@@ -8,6 +8,7 @@ mod count_number_of_teams;
 mod count_sub_islands;
 mod filling_bookcase_shelves;
 mod find_closest_palindrome;
+mod find_the_student_that_will_replace_chalk;
 mod find_unique_binary_string;
 mod find_words_than_can_be_formed;
 mod fraction_addition_and_substraction;
