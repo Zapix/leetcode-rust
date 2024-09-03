@@ -44,6 +44,7 @@ pub mod reverse_string;
 mod sort_vowels_in_a_string;
 mod spiral_matrix_iii;
 mod stranger_printer;
+mod sum_of_digits_of_string;
 mod two_keys_keyboard;
 mod two_sum_ii;
 mod ugly_number_ii;
