@@ -49,3 +49,4 @@ mod two_keys_keyboard;
 mod two_sum_ii;
 mod ugly_number_ii;
 mod unique_length_3_palindromic;
+mod walking_robot_simulation;
