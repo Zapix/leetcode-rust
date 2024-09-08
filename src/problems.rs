@@ -19,6 +19,7 @@ mod k_th_element_in_a_stream;
 mod kth_distinct_string_in_array;
 mod kth_smallest_pair_distance;
 mod lemonade_change;
+mod linked_list_in_binary_tree;
 pub mod longest_common_prefix;
 mod magic_squares_in_grid;
 mod make_two_arrays_equal_by_reversing;
