@@ -46,6 +46,7 @@ mod remove_stones_to_minimize_total;
 pub mod reverse_string;
 mod sort_vowels_in_a_string;
 mod spiral_matrix_iii;
+mod split_linked_list_into_parts;
 mod stranger_printer;
 mod sum_of_digits_of_string;
 mod two_keys_keyboard;
