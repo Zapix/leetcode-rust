@@ -6,6 +6,7 @@ mod combination_sum_ii;
 mod convert_1d_array_into_2d_array;
 mod count_number_of_teams;
 mod count_sub_islands;
+mod count_the_number_of_consistent_strings;
 mod delete_nodes_form_linked_list;
 mod filling_bookcase_shelves;
 mod find_closest_palindrome;
