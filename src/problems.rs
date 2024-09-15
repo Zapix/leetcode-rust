@@ -24,6 +24,7 @@ mod lemonade_change;
 mod linked_list_in_binary_tree;
 pub mod longest_common_prefix;
 mod longest_substring_with_even_vowels;
+mod longest_subarray_with_maximum_bitwise_and;
 mod magic_squares_in_grid;
 mod make_two_arrays_equal_by_reversing;
 mod max_consecutive_ones;
