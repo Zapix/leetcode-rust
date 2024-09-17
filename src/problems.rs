@@ -58,6 +58,7 @@ mod sum_of_digits_of_string;
 mod two_keys_keyboard;
 mod two_sum_ii;
 mod ugly_number_ii;
+mod uncommon_words_from_two_sentences;
 mod unique_length_3_palindromic;
 mod walking_robot_simulation;
 mod xor_queries_of_subarray;
