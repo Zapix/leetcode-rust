@@ -1,6 +1,7 @@
 use crate::problems::spiral_matrix_iv::Direction::Down;
 use std::boxed::Box;
 
+#[derive(PartialEq, Eq, Clone, Debug)]
 struct ListNode {
     val: i32,
     next: Option<Box<ListNode>>,
