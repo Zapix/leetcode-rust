@@ -8,6 +8,7 @@ mod count_number_of_teams;
 mod count_sub_islands;
 mod count_the_number_of_consistent_strings;
 mod delete_nodes_form_linked_list;
+mod different_ways_to_add_parantheses;
 mod filling_bookcase_shelves;
 mod find_closest_palindrome;
 mod find_missing_observations;
