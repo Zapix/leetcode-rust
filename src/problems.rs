@@ -51,6 +51,7 @@ mod regions_by_slashes;
 mod remove_element;
 mod remove_stones_to_minimize_total;
 pub mod reverse_string;
+mod shortest_palindrome;
 mod sort_vowels_in_a_string;
 mod spiral_matrix_iii;
 mod spiral_matrix_iv;
