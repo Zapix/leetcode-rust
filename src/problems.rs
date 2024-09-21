@@ -23,6 +23,7 @@ mod kth_distinct_string_in_array;
 mod kth_smallest_pair_distance;
 mod largest_number;
 mod lemonade_change;
+mod lexical_order_numbers;
 mod linked_list_in_binary_tree;
 pub mod longest_common_prefix;
 mod longest_subarray_with_maximum_bitwise_and;
