@@ -18,6 +18,7 @@ mod find_words_than_can_be_formed;
 mod fraction_addition_and_substraction;
 mod insert_gcd_in_linked_list;
 mod integer_to_english_words;
+mod k_lexicigraphical_smallest;
 mod k_th_element_in_a_stream;
 mod kth_distinct_string_in_array;
 mod kth_smallest_pair_distance;
