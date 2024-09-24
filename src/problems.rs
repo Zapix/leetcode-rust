@@ -13,6 +13,7 @@ mod extra_characters_in_string;
 mod filling_bookcase_shelves;
 mod find_closest_palindrome;
 mod find_missing_observations;
+mod find_the_length_of_the_longest_common_prefix;
 mod find_the_student_that_will_replace_chalk;
 mod find_unique_binary_string;
 mod find_words_than_can_be_formed;
