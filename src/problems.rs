@@ -62,6 +62,7 @@ mod spiral_matrix_iv;
 mod split_linked_list_into_parts;
 mod stranger_printer;
 mod sum_of_digits_of_string;
+mod sum_of_prefix_scores_of_strings;
 mod two_keys_keyboard;
 mod two_sum_ii;
 mod ugly_number_ii;
