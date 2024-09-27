@@ -48,6 +48,7 @@ mod minimum_time_difference;
 mod modify_graph_edge_weights;
 mod most_stones_removed_with_same_row_or_column;
 mod my_calendar_i;
+mod my_calendar_ii;
 mod number_complement;
 mod number_of_senior_citizens;
 mod path_max_probability;
