@@ -1,3 +1,4 @@
+mod all_one;
 mod array_pair_sum;
 mod binary_tree_inorder_traversal;
 mod binary_tree_postorder_traversal;
