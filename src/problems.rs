@@ -3,6 +3,7 @@ mod array_pair_sum;
 mod binary_tree_inorder_traversal;
 mod binary_tree_postorder_traversal;
 mod bus_routes;
+mod check_if_array_pairs_divisble_by_k;
 mod combination_sum_ii;
 mod convert_1d_array_into_2d_array;
 mod count_number_of_teams;
