@@ -1,4 +1,4 @@
-use std::collections::{HashMap as Map, VecDeque, HashSet as Set};
+use std::collections::{HashSet as Set, VecDeque};
 #[allow(dead_code)]
 struct Solution;
 
@@ -73,14 +73,7 @@ mod tests {
     #[test]
     fn simple_1() {
         assert_eq!(
-            Solution::num_buses_to_destination(
-                vec![
-                    vec![1, 2, 7],
-                    vec![3, 6, 7]
-                ],
-                1,
-                6
-            ),
+            Solution::num_buses_to_destination(vec![vec![1, 2, 7], vec![3, 6, 7]], 1, 6),
             2
         );
     }
@@ -106,14 +99,7 @@ mod tests {
     #[test]
     fn simple_same_source_and_target() {
         assert_eq!(
-            Solution::num_buses_to_destination(
-                vec![
-                    vec![1, 2, 7],
-                    vec![3, 6, 7]
-                ],
-                1,
-                1
-            ),
+            Solution::num_buses_to_destination(vec![vec![1, 2, 7], vec![3, 6, 7]], 1, 1),
             0
         );
     }
@@ -122,11 +108,7 @@ mod tests {
     fn simple_two_buses_should_be_changed() {
         assert_eq!(
             Solution::num_buses_to_destination(
-                vec![
-                    vec![1, 2, 7],
-                    vec![3, 6, 7],
-                    vec![4, 5, 6]
-                ],
+                vec![vec![1, 2, 7], vec![3, 6, 7], vec![4, 5, 6]],
                 1,
                 6
             ),
@@ -138,14 +120,9 @@ mod tests {
     fn simple_4() {
         assert_eq!(
             Solution::num_buses_to_destination(
-                vec![
-                    vec![1],
-                    vec![15,16,18],
-                    vec![10],
-                    vec![3,4,12,14]
-                ],
+                vec![vec![1], vec![15, 16, 18], vec![10], vec![3, 4, 12, 14]],
                 3,
-               15
+                15
             ),
             -1
         );

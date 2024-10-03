@@ -1,9 +1,8 @@
 #[allow(dead_code)]
 struct Solution;
 
-#[allow(daed_code)]
+#[allow(dead_code)]
 impl Solution {
-
     fn generate_palindrome(half: i64, even: bool) -> i64 {
         let mut res = half;
         let mut left = half;
@@ -20,33 +19,26 @@ impl Solution {
         let len = n.len();
         let mut num = n.parse::<i64>().unwrap();
         let i = match len % 2 {
-            0 => {
-                len / 2
-            },
-            _ => {
-                len / 2 + 1
-            }
-        } ;
+            0 => len / 2,
+            _ => len / 2 + 1,
+        };
         let half = String::from_iter(n.chars().take(i)).parse::<i64>().unwrap();
 
         let mut possibilities = vec![];
-        possibilities.push(
-            Solution::generate_palindrome(half, len % 2 == 0),
-        );
-        possibilities.push(
-            Solution::generate_palindrome(half - 1, len % 2 == 0),
-        );
-        possibilities.push(
-            Solution::generate_palindrome(half + 1, len % 2 == 0),
-        );
-        possibilities.push(
-            10_i64.pow((len as i32 - 1) as u32)  - 1
-        );
-        possibilities.push(
-            10_i64.pow(len as u32) + 1
-        );
+        possibilities.push(Solution::generate_palindrome(half, len % 2 == 0));
+        possibilities.push(Solution::generate_palindrome(half - 1, len % 2 == 0));
+        possibilities.push(Solution::generate_palindrome(half + 1, len % 2 == 0));
+        possibilities.push(10_i64.pow((len as i32 - 1) as u32) - 1);
+        possibilities.push(10_i64.pow(len as u32) + 1);
 
-        format!("{}", possibilities.iter().filter(|x| **x != num).min_by_key(|x| ((num - **x).abs(), **x)).unwrap())
+        format!(
+            "{}",
+            possibilities
+                .iter()
+                .filter(|x| **x != num)
+                .min_by_key(|x| ((num - **x).abs(), **x))
+                .unwrap()
+        )
     }
 }
 
