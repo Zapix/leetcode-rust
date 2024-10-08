@@ -48,6 +48,7 @@ mod minimize_maximum_pair_sum_in_array;
 mod minimum_deletions_to_make_string_balanced;
 mod minimum_number_of_days_to_disconnect_islinad;
 mod minimum_number_of_operations_to_move_all_balls_to_each_box;
+mod minimum_number_of_swaps_to_make_string_balanced;
 mod minimum_size_subarray_sum;
 mod minimum_string_length_after_removing_substrings;
 mod minimum_time_difference;
