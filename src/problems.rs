@@ -43,6 +43,7 @@ mod max_distance_in_array;
 mod max_distance_in_array_v2;
 mod maximum_element_after_decrementing_and_rearranging;
 mod maximum_number_of_points_with_cost;
+mod maximum_width_ramp;
 mod minimium_numbers_to_write_word_ii;
 mod minimize_maximum_pair_sum_in_array;
 mod minimum_add_to_make_paranthesis_valid;
