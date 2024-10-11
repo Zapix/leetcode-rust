@@ -78,6 +78,7 @@ mod stack_with_increment_operation;
 mod stranger_printer;
 mod sum_of_digits_of_string;
 mod sum_of_prefix_scores_of_strings;
+mod the_number_os_smallest_unoccupied_chair;
 mod two_keys_keyboard;
 mod two_sum_ii;
 mod ugly_number_ii;
