@@ -12,6 +12,7 @@ mod count_the_number_of_consistent_strings;
 mod delete_nodes_form_linked_list;
 mod design_circulare_deque;
 mod different_ways_to_add_parantheses;
+mod divide_intervals_into_minimum_number_of_groups;
 mod divide_players_into_teams_of_equal_skill;
 mod extra_characters_in_string;
 mod filling_bookcase_shelves;
