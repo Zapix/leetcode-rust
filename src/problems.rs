@@ -71,6 +71,7 @@ mod remove_stones_to_minimize_total;
 pub mod reverse_string;
 mod sentence_similarity_iii;
 mod shortest_palindrome;
+mod smallest_range_covering_elements_from_k_lists;
 mod sort_vowels_in_a_string;
 mod spiral_matrix_iii;
 mod spiral_matrix_iv;
