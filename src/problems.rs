@@ -42,6 +42,7 @@ mod make_two_arrays_equal_by_reversing;
 mod max_consecutive_ones;
 mod max_distance_in_array;
 mod max_distance_in_array_v2;
+mod maximal_score_after_applying_k_operations;
 mod maximum_element_after_decrementing_and_rearranging;
 mod maximum_number_of_points_with_cost;
 mod maximum_width_ramp;
