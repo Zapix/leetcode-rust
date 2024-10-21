@@ -80,6 +80,7 @@ mod sort_vowels_in_a_string;
 mod spiral_matrix_iii;
 mod spiral_matrix_iv;
 mod split_linked_list_into_parts;
+mod split_strings_to_maximum_number;
 mod stack_with_increment_operation;
 mod stranger_printer;
 mod sum_of_digits_of_string;
