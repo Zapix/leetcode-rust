@@ -7,6 +7,7 @@ mod check_if_array_pairs_divisble_by_k;
 mod combination_sum_ii;
 mod convert_1d_array_into_2d_array;
 mod count_number_of_teams;
+mod count_number_or_maximum_bitwise_or_subset;
 mod count_sub_islands;
 mod count_the_number_of_consistent_strings;
 mod delete_nodes_form_linked_list;
