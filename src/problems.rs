@@ -29,6 +29,7 @@ mod integer_to_english_words;
 mod k_lexicigraphical_smallest;
 mod k_th_element_in_a_stream;
 mod kth_distinct_string_in_array;
+mod kth_largest_sum_in_a_binary_tree;
 mod kth_smallest_pair_distance;
 mod largest_number;
 mod lemonade_change;
