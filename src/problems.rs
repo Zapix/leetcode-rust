@@ -75,6 +75,7 @@ mod rangk_transform_of_array;
 mod regions_by_slashes;
 mod remove_element;
 mod remove_stones_to_minimize_total;
+mod remove_sub_folders_from_the_fs;
 pub mod reverse_string;
 mod sentence_similarity_iii;
 mod separate_black_and_white_balls;
