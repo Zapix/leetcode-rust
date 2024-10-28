@@ -42,6 +42,7 @@ mod lexical_order_numbers;
 mod linked_list_in_binary_tree;
 pub mod longest_common_prefix;
 mod longest_happy_string;
+mod longest_sqaure_streak_in_an_array;
 mod longest_subarray_with_maximum_bitwise_and;
 mod longest_substring_with_even_vowels;
 mod magic_squares_in_grid;
