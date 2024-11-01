@@ -13,6 +13,7 @@ mod count_square_submatrices_with_all_ones;
 mod count_sub_islands;
 mod count_the_number_of_consistent_strings;
 mod cousins_in_binary_tree_ii;
+mod delete_characters_to_make_fancy_string;
 mod delete_nodes_form_linked_list;
 mod design_circulare_deque;
 mod different_ways_to_add_parantheses;
