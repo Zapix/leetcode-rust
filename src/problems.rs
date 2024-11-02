@@ -4,6 +4,7 @@ mod binary_tree_inorder_traversal;
 mod binary_tree_postorder_traversal;
 mod bus_routes;
 mod check_if_array_pairs_divisble_by_k;
+mod circular_sentence;
 mod combination_sum_ii;
 mod common_struct;
 mod convert_1d_array_into_2d_array;
