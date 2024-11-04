@@ -96,6 +96,7 @@ mod split_linked_list_into_parts;
 mod split_strings_to_maximum_number;
 mod stack_with_increment_operation;
 mod stranger_printer;
+mod string_compression_iii;
 mod sum_of_digits_of_string;
 mod sum_of_prefix_scores_of_strings;
 mod the_number_os_smallest_unoccupied_chair;
