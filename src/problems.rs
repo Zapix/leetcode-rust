@@ -62,6 +62,7 @@ mod minimium_numbers_to_write_word_ii;
 mod minimize_maximum_pair_sum_in_array;
 mod minimum_add_to_make_paranthesis_valid;
 mod minimum_deletions_to_make_string_balanced;
+mod minimum_number_of_changes_to_make_binary_string_beautiful;
 mod minimum_number_of_days_to_disconnect_islinad;
 mod minimum_number_of_operations_to_move_all_balls_to_each_box;
 mod minimum_number_of_removal_to_make_mountain_array;
