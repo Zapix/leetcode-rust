@@ -64,6 +64,7 @@ mod maximum_xor_for_each_query;
 mod minimium_numbers_to_write_word_ii;
 mod minimize_maximum_pair_sum_in_array;
 mod minimum_add_to_make_paranthesis_valid;
+mod minimum_array_end;
 mod minimum_deletions_to_make_string_balanced;
 mod minimum_number_of_changes_to_make_binary_string_beautiful;
 mod minimum_number_of_days_to_disconnect_islinad;
