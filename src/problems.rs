@@ -93,6 +93,7 @@ mod rotate_string;
 mod sentence_similarity_iii;
 mod separate_black_and_white_balls;
 mod shortest_palindrome;
+mod shortest_subarray_with_or_at_least_k_ii;
 mod smallest_range_covering_elements_from_k_lists;
 mod sort_vowels_in_a_string;
 mod spiral_matrix_iii;
