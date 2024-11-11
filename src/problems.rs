@@ -82,6 +82,7 @@ mod number_complement;
 mod number_of_senior_citizens;
 mod path_max_probability;
 mod permutation_in_string;
+mod prime_subtraction_operation;
 mod range_sum_of_sorted_sub_arrays_sums;
 mod rangk_transform_of_array;
 mod regions_by_slashes;
