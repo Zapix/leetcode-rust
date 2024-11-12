@@ -75,6 +75,7 @@ mod minimum_size_subarray_sum;
 mod minimum_string_length_after_removing_substrings;
 mod minimum_time_difference;
 mod modify_graph_edge_weights;
+mod most_beautiful_item_for_each_query;
 mod most_stones_removed_with_same_row_or_column;
 mod my_calendar_i;
 mod my_calendar_ii;
