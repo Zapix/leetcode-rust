@@ -13,6 +13,7 @@ mod count_number_or_maximum_bitwise_or_subset;
 mod count_square_submatrices_with_all_ones;
 mod count_sub_islands;
 mod count_the_number_of_consistent_strings;
+mod count_the_number_of_fair_pairs;
 mod cousins_in_binary_tree_ii;
 mod delete_characters_to_make_fancy_string;
 mod delete_nodes_form_linked_list;
