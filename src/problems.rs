@@ -63,6 +63,7 @@ mod maximum_number_of_points_with_cost;
 mod maximum_width_ramp;
 mod maximum_xor_for_each_query;
 mod minimium_numbers_to_write_word_ii;
+mod minimize_maximum_of_products;
 mod minimize_maximum_pair_sum_in_array;
 mod minimum_add_to_make_paranthesis_valid;
 mod minimum_array_end;
