@@ -61,6 +61,7 @@ mod maximal_score_after_applying_k_operations;
 mod maximum_element_after_decrementing_and_rearranging;
 mod maximum_number_of_moves_in_a_grid;
 mod maximum_number_of_points_with_cost;
+mod maximum_sum_of_distinct_subarrays_with_length_k;
 mod maximum_width_ramp;
 mod maximum_xor_for_each_query;
 mod minimium_numbers_to_write_word_ii;
