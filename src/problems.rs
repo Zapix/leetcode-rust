@@ -14,6 +14,7 @@ mod count_square_submatrices_with_all_ones;
 mod count_sub_islands;
 mod count_the_number_of_consistent_strings;
 mod count_the_number_of_fair_pairs;
+mod count_unguarded_cells_in_the_grid;
 mod cousins_in_binary_tree_ii;
 mod defuse_the_bomb;
 mod delete_characters_to_make_fancy_string;
