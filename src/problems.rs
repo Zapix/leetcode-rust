@@ -32,6 +32,7 @@ mod find_the_length_of_the_longest_common_prefix;
 mod find_the_student_that_will_replace_chalk;
 mod find_unique_binary_string;
 mod find_words_than_can_be_formed;
+mod flip_columns_for_maximum_number_of_equal_rows;
 mod flip_equivalient_binary_trees;
 mod fraction_addition_and_substraction;
 mod head_of_a_binary_tree_after_removing_queries;
