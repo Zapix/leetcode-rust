@@ -61,6 +61,7 @@ mod max_distance_in_array;
 mod max_distance_in_array_v2;
 mod maximal_score_after_applying_k_operations;
 mod maximum_element_after_decrementing_and_rearranging;
+mod maximum_matrix_sum;
 mod maximum_number_of_moves_in_a_grid;
 mod maximum_number_of_points_with_cost;
 mod maximum_sum_of_distinct_subarrays_with_length_k;
