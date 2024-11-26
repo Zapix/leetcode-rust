@@ -25,6 +25,7 @@ mod divide_intervals_into_minimum_number_of_groups;
 mod divide_players_into_teams_of_equal_skill;
 mod extra_characters_in_string;
 mod filling_bookcase_shelves;
+mod find_champion_ii;
 mod find_closest_palindrome;
 mod find_if_array_can_be_sorted;
 mod find_missing_observations;
