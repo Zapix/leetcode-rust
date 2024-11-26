@@ -105,6 +105,7 @@ mod separate_black_and_white_balls;
 mod shortest_palindrome;
 mod shortest_subarray_to_be_removed_to_make_array_sorted;
 mod shortest_subarray_with_or_at_least_k_ii;
+mod sliding_puzzle;
 mod smallest_range_covering_elements_from_k_lists;
 mod sort_vowels_in_a_string;
 mod spiral_matrix_iii;
