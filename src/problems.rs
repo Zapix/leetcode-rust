@@ -79,6 +79,7 @@ mod minimum_number_of_days_to_disconnect_islinad;
 mod minimum_number_of_operations_to_move_all_balls_to_each_box;
 mod minimum_number_of_removal_to_make_mountain_array;
 mod minimum_number_of_swaps_to_make_string_balanced;
+mod minimum_obstacle_removal_to_reach_corner;
 mod minimum_size_subarray_sum;
 mod minimum_string_length_after_removing_substrings;
 mod minimum_time_difference;
