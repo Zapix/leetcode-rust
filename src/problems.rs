@@ -103,6 +103,7 @@ mod rotate_string;
 mod rotating_the_box;
 mod sentence_similarity_iii;
 mod separate_black_and_white_balls;
+mod shortest_distance_after_road_additional_queries;
 mod shortest_palindrome;
 mod shortest_subarray_to_be_removed_to_make_array_sorted;
 mod shortest_subarray_with_or_at_least_k_ii;
