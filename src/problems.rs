@@ -1,3 +1,4 @@
+mod adding_spaces_to_a_string;
 mod all_one;
 mod array_pair_sum;
 mod binary_tree_inorder_traversal;
