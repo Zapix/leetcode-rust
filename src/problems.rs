@@ -131,3 +131,4 @@ mod uncommon_words_from_two_sentences;
 mod unique_length_3_palindromic;
 mod walking_robot_simulation;
 mod xor_queries_of_subarray;
+mod make_a_string_as_subsequence_of_a_string;
