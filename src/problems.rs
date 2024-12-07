@@ -77,6 +77,7 @@ mod minimize_maximum_pair_sum_in_array;
 mod minimum_add_to_make_paranthesis_valid;
 mod minimum_array_end;
 mod minimum_deletions_to_make_string_balanced;
+mod minimum_limit_of_balls_in_a_bag;
 mod minimum_number_of_changes_to_make_binary_string_beautiful;
 mod minimum_number_of_days_to_disconnect_islinad;
 mod minimum_number_of_operations_to_move_all_balls_to_each_box;
