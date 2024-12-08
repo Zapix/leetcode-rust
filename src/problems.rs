@@ -127,6 +127,7 @@ mod sum_of_digits_of_string;
 mod sum_of_prefix_scores_of_strings;
 mod take_k_of_each_characters_from_left_and_right;
 mod the_number_os_smallest_unoccupied_chair;
+mod two_best_non_overlapping_events;
 mod two_keys_keyboard;
 mod two_sum_ii;
 mod ugly_number_ii;
