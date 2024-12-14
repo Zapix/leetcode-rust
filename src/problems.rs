@@ -9,6 +9,7 @@ mod check_if_word_occurs_in_a_string_as_prefix;
 mod circular_sentence;
 mod combination_sum_ii;
 mod common_struct;
+mod continuous_subarrays;
 mod convert_1d_array_into_2d_array;
 mod count_number_of_teams;
 mod count_number_or_maximum_bitwise_or_subset;
