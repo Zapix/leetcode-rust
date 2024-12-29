@@ -141,3 +141,4 @@ mod unique_length_3_palindromic;
 mod walking_robot_simulation;
 mod xor_queries_of_subarray;
 mod best_sight_seeing_pair;
+mod number_of_ways_to_form_a_target;
