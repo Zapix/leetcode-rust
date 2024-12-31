@@ -143,3 +143,4 @@ mod xor_queries_of_subarray;
 mod best_sight_seeing_pair;
 mod number_of_ways_to_form_a_target;
 mod count_ways_to_build_a_good_string;
+mod minimum_cost_of_tickets;
