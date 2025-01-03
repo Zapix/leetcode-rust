@@ -147,3 +147,4 @@ mod uncommon_words_from_two_sentences;
 mod unique_length_3_palindromic;
 mod walking_robot_simulation;
 mod xor_queries_of_subarray;
+mod number_of_ways_to_split_array;
