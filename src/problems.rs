@@ -120,6 +120,7 @@ mod rotate_string;
 mod rotating_the_box;
 mod sentence_similarity_iii;
 mod separate_black_and_white_balls;
+mod shifting_letters_ii;
 mod shortest_distance_after_road_additional_queries;
 mod shortest_palindrome;
 mod shortest_subarray_to_be_removed_to_make_array_sorted;
