@@ -136,6 +136,7 @@ mod split_strings_to_maximum_number;
 mod stack_with_increment_operation;
 mod stranger_printer;
 mod string_compression_iii;
+mod string_matching_in_array;
 mod sum_of_digits_of_string;
 mod sum_of_prefix_scores_of_strings;
 mod take_gifts_from_the_richest_pile;
