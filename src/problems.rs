@@ -151,3 +151,4 @@ mod unique_length_3_palindromic;
 mod unique_length_3_palindromic_v2;
 mod walking_robot_simulation;
 mod xor_queries_of_subarray;
+mod count_prefix_and_suffix_pairs_i;
