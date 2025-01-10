@@ -5,11 +5,11 @@ struct Solution;
 impl Solution {
     pub fn ways_to_split_array(nums: Vec<i32>) -> i32 {
         let mut counter = 0;
-        let mut right_sum = nums.iter().sum::<i32>();
-        let mut left_sum = 0;
+        let mut right_sum = nums.iter().map(|&x| x as i64).sum::<i64>();
+        let mut left_sum = 0i64;
         for value in nums.iter().take(nums.len() -1) {
-            left_sum += value;
-            right_sum -= value;
+            left_sum += *value as i64;
+            right_sum -= *value as i64;
             if left_sum >= right_sum {
                 counter += 1;
             }
