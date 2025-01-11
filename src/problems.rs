@@ -10,6 +10,7 @@ mod check_if_word_occurs_in_a_string_as_prefix;
 mod circular_sentence;
 mod combination_sum_ii;
 mod common_struct;
+mod construct_k_palindrome_strings;
 mod continuous_subarrays;
 mod convert_1d_array_into_2d_array;
 mod count_number_of_teams;
