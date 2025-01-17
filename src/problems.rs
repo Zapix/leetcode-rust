@@ -108,6 +108,7 @@ mod most_stones_removed_with_same_row_or_column;
 mod move_pieces_of_obtain_a_string;
 mod my_calendar_i;
 mod my_calendar_ii;
+mod neighboring_bitwise_xor;
 mod number_complement;
 mod number_of_senior_citizens;
 mod number_of_ways_to_form_a_target;
