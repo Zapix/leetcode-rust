@@ -165,3 +165,4 @@ mod xor_queries_of_subarray;
 mod minimum_cost_to_make_valid_path;
 mod first_completely_painted_row_or_column;
 mod grid_game;
+mod map_of_highest_peak;
