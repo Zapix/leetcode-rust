@@ -26,6 +26,7 @@ mod count_the_number_of_fair_pairs;
 mod count_unguarded_cells_in_the_grid;
 mod count_vowel_strings_in_ranges;
 mod count_ways_to_build_a_good_string;
+mod course_schedule_iv;
 mod cousins_in_binary_tree_ii;
 mod defuse_the_bomb;
 mod delete_characters_to_make_fancy_string;
