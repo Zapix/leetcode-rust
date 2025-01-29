@@ -171,3 +171,4 @@ mod unique_substrings_with_equal_digit_frequency;
 mod walking_robot_simulation;
 mod word_subsets;
 mod xor_queries_of_subarray;
+mod redundant_connection;
