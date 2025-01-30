@@ -84,6 +84,7 @@ mod maximal_score_after_applying_k_operations;
 mod maximum_beauty_of_an_array_after_applying_operation;
 mod maximum_element_after_decrementing_and_rearranging;
 mod maximum_matrix_sum;
+mod maximum_number_of_fish_in_a_grid;
 mod maximum_number_of_moves_in_a_grid;
 mod maximum_number_of_points_with_cost;
 mod maximum_score_after_splitting_a_string;
