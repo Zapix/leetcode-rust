@@ -176,3 +176,4 @@ mod valid_graph_tree;
 mod walking_robot_simulation;
 mod word_subsets;
 mod xor_queries_of_subarray;
+mod check_if_array_is_sorted_and_rotated;
