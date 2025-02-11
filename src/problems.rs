@@ -181,3 +181,4 @@ mod walking_robot_simulation;
 mod word_subsets;
 mod xor_queries_of_subarray;
 mod count_bad_pairs;
+mod remove_all_occurrences_of_a_substring;
