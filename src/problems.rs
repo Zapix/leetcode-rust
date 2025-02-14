@@ -183,3 +183,4 @@ mod xor_queries_of_subarray;
 mod count_bad_pairs;
 mod remove_all_occurrences_of_a_substring;
 mod max_sum_of_a_pair_number_with_equal_sum_of_digits;
+mod minmum_operations_to_exceed_threshold_iii;
