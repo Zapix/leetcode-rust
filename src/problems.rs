@@ -128,6 +128,7 @@ mod my_calendar_ii;
 mod neighboring_bitwise_xor;
 mod number_complement;
 mod number_of_senior_citizens;
+mod number_of_subarrys_with_odd_sum;
 mod number_of_ways_to_form_a_target;
 mod number_of_ways_to_split_array;
 mod path_max_probability;
