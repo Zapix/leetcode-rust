@@ -67,6 +67,7 @@ mod kth_smallest_pair_distance;
 mod largest_combination_with_bitwise_and_greater_than_zero;
 mod largest_number;
 mod lemonade_change;
+mod length_of_longest_fibonacci_subsequence;
 mod lexical_order_numbers;
 mod linked_list_in_binary_tree;
 pub mod longest_common_prefix;
