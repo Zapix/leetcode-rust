@@ -1,5 +1,6 @@
 mod adding_spaces_to_a_string;
 mod all_one;
+mod apply_operations_to_an_array;
 mod array_pair_sum;
 mod best_sight_seeing_pair;
 mod binary_tree_inorder_traversal;
