@@ -102,6 +102,7 @@ mod maximum_score_after_splitting_a_string;
 mod maximum_sum_of_distinct_subarrays_with_length_k;
 mod maximum_width_ramp;
 mod maximum_xor_for_each_query;
+mod merge_two_two_d_arrays_by_summin_values;
 mod minim_swaps_to_group_all_ones_together;
 mod minimium_numbers_to_write_word_ii;
 mod minimize_maximum_of_products;
