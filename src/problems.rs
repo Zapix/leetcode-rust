@@ -197,3 +197,4 @@ mod walking_robot_simulation;
 mod word_subsets;
 mod xor_queries_of_subarray;
 mod check_if_number_is_a_sum_of_powers_of_three;
+mod find_missing_and_repeated_values;
