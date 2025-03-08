@@ -48,6 +48,7 @@ mod find_champion_ii;
 mod find_closest_palindrome;
 mod find_eventual_safe_states;
 mod find_if_array_can_be_sorted;
+mod find_k_length_substrings_with_no_repeated_characters;
 mod find_missing_and_repeated_values;
 mod find_missing_observations;
 mod find_the_length_of_the_longest_common_prefix;
