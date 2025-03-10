@@ -24,6 +24,7 @@ mod convert_1d_array_into_2d_array;
 mod count_bad_pairs;
 mod count_number_of_teams;
 mod count_number_or_maximum_bitwise_or_subset;
+mod count_os_substrings_containing_every_vowel_and_consonants_ii;
 mod count_prefix_and_suffix_pairs_i;
 mod count_servers_that_communicate;
 mod count_square_submatrices_with_all_ones;
