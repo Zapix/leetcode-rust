@@ -65,6 +65,7 @@ mod flip_equivalient_binary_trees;
 mod fraction_addition_and_substraction;
 mod grid_game;
 mod head_of_a_binary_tree_after_removing_queries;
+mod house_robber_iv;
 mod insert_gcd_in_linked_list;
 mod integer_to_english_words;
 mod k_lexicigraphical_smallest;
