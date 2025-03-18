@@ -81,6 +81,7 @@ mod lexical_order_numbers;
 mod linked_list_in_binary_tree;
 pub mod longest_common_prefix;
 mod longest_happy_string;
+mod longest_nice_subarray;
 mod longest_special_substring_that_occurs_thrice;
 mod longest_sqaure_streak_in_an_array;
 mod longest_subarray_with_maximum_bitwise_and;

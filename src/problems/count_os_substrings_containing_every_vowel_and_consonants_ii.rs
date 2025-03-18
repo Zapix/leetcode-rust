@@ -20,7 +20,6 @@ impl Solution {
         let mut left = 0;
         let mut right = 0;
         let mut vowels = HashMap::new();
-        let mut vowels_count = 0;
         let mut consonants_count = 0;
         let mut next_consonant = vec![0; word.len()];
         let mut next_consonants_index = word.len();
@@ -36,7 +35,6 @@ impl Solution {
                 ch if ch.is_vowel() => {
                     let entry = vowels.entry(ch).or_insert(0);
                     *entry += 1;
-                    vowels_count += 1;
                 }
                 _ => {
                     consonants_count += 1;
@@ -50,7 +48,6 @@ impl Solution {
                         if *entry == 0 {
                             vowels.remove(&ch);
                         }
-                        vowels_count -= 1;
                     }
                     _ => {
                         consonants_count -= 1;
@@ -67,7 +64,6 @@ impl Solution {
                         if *entry == 0 {
                             vowels.remove(&ch);
                         }
-                        vowels_count -= 1;
                     }
                     _ => {
                         consonants_count -= 1;

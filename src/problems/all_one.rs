@@ -9,14 +9,12 @@ struct Node {
     next: Option<Rc<RefCell<Node>>>,
 }
 
-#[allow(dead_code)]
 struct AllOne {
     words: HashMap<String, Rc<RefCell<Node>>>,
     head: Rc<RefCell<Node>>,
     tail: Rc<RefCell<Node>>,
 }
 
-#[allow(dead_code)]
 impl AllOne {
     pub fn new() -> Self {
         let head = Rc::new(RefCell::new(Node {
@@ -129,7 +127,7 @@ mod tests {
 
     #[test]
     fn test_empty() {
-        let mut all_one = AllOne::new();
+        let all_one = AllOne::new();
         assert_eq!(all_one.get_max_key(), "".to_string());
         assert_eq!(all_one.get_min_key(), "".to_string());
     }

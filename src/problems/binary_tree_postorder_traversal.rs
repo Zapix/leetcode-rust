@@ -1,7 +1,6 @@
 use std::rc::Rc;
 use std::cell::RefCell;
 
-#[allow(dead_code)]
 struct Solution;
 
 // Definition for a binary tree node.
@@ -23,7 +22,6 @@ impl TreeNode {
     }
 }
 
-#[allow(dead_code)]
 impl Solution {
     pub fn postorder_traversal(root: Option<Rc<RefCell<TreeNode>>>) -> Vec<i32> {
         let mut result = vec![];
@@ -31,7 +29,7 @@ impl Solution {
         while let Some(current) = stack.pop() {
             match current {
                 Some(current) => {
-                    let mut current = current.clone();
+                    let current = current.clone();
                     let mut current_node_ref= current.borrow_mut();
                     if current_node_ref.left.is_none() && current_node_ref.right.is_none() {
                         result.push(current_node_ref.val);
