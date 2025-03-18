@@ -37,7 +37,7 @@ impl Solution {
             let k = stack.len();
 
             for i in 0..k {
-                let (node, parent_node) = &stack[i];
+                let (node, _parent_node) = &stack[i];
                 if let Some(node) = node {
                     value_sum += node.borrow().val;
                     let parent_sum = node
