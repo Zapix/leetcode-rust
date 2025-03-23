@@ -16,7 +16,7 @@ impl Solution {
         queue.push((Reverse(0), source));
         while !queue.is_empty() {
             let (Reverse(distance), node) = queue.pop().unwrap();
-            if (visited.contains(&node)) {
+            if visited.contains(&node) {
                 continue;
             }
             visited.insert(node);

@@ -1,9 +1,5 @@
-use std::cmp::max;
-use std::collections::HashMap;
-#[allow(dead_code)]
 struct Solution;
 
-#[allow(dead_code)]
 impl Solution {
     fn get_ch_bit(ch: char) -> i32 {
         match ch {

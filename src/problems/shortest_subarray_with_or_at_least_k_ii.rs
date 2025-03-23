@@ -56,7 +56,7 @@ impl Solution {
                     Self::remove_bits_count(&mut bits_count, nums[j]);
                     j += 1;
                 }
-                if (j <= i) {
+                if j <= i {
                     min_length = min_length.min((i - j + 1) as i32);
                 }
             }

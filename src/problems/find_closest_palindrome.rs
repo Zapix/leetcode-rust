@@ -1,7 +1,5 @@
-#[allow(dead_code)]
 struct Solution;
 
-#[allow(dead_code)]
 impl Solution {
     fn generate_palindrome(half: i64, even: bool) -> i64 {
         let mut res = half;
@@ -17,7 +15,7 @@ impl Solution {
     }
     pub fn nearest_palindromic(n: String) -> String {
         let len = n.len();
-        let mut num = n.parse::<i64>().unwrap();
+        let num = n.parse::<i64>().unwrap();
         let i = match len % 2 {
             0 => len / 2,
             _ => len / 2 + 1,

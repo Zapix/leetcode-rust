@@ -10,7 +10,7 @@ impl Solution {
         let mut que = BinaryHeap::from([Reverse(1i64)]);
         let mut visited = HashSet::new();
         let mut result = 0;
-        for i in 0..n {
+        for _ in 0..n {
             while let Some(value) = que.pop() {
                 if !visited.contains(&value.0) {
                     result = value.0;

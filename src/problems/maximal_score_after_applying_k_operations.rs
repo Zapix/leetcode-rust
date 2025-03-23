@@ -8,7 +8,7 @@ impl Solution {
         let mut nums = nums.iter().map(|x| *x as i64).collect::<BinaryHeap<_>>();
 
         let mut result = 0;
-        for _ in (0..k) {
+        for _ in 0..k {
             let value = nums.pop().unwrap();
             result += value;
             nums.push(value / 3 + if value % 3 == 0 { 0 } else { 1 });

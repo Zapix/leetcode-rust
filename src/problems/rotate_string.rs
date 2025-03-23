@@ -1,7 +1,5 @@
-#[allow(dead_code)]
 struct Solution;
 
-#[allow(dead_code)]
 impl Solution {
     pub fn rotate_string(s: String, goal: String) -> bool {
         if s.len() != goal.len() {
@@ -13,7 +11,7 @@ impl Solution {
             .clone()
             .chars()
             .enumerate()
-            .filter_map(|x| if (x.1 == first_char) { Some(x.0) } else { None })
+            .filter_map(|x| if x.1 == first_char { Some(x.0) } else { None })
             .collect::<Vec<usize>>();
 
         for shift in shifts {

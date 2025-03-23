@@ -9,7 +9,7 @@ impl Solution {
             .chain(s2.split(" "))
             .fold(HashMap::new(), |mut acc, x| {
                 if acc.contains_key(x) {
-                    let mut val = acc.get_mut(x).unwrap();
+                    let val = acc.get_mut(x).unwrap();
                     *val += 1;
                 } else {
                     acc.insert(x, 1);

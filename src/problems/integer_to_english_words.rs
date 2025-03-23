@@ -1,9 +1,8 @@
 use std::cell::{Ref, RefCell};
 use std::collections::HashMap;
-#[allow(dead_code)]
+
 struct Solution;
 
-#[allow(daed_code)]
 impl Solution {
 
     fn by_digits(num: i32) -> Vec<i32> {

@@ -1,7 +1,5 @@
-#[allow(dead_code)]
 struct Solution;
 
-#[allow(dead_code)]
 impl Solution {
     pub fn get_lucky(s: String, k: i32) -> i32 {
         let mut result: Vec<i32> = vec![];
@@ -35,6 +33,7 @@ impl Solution {
     }
 }
 
+#[cfg(test)]
 mod tests {
     use super::*;
 

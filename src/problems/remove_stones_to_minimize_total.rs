@@ -11,7 +11,7 @@ impl Solution {
             binary_heap.push(pile);
         }
 
-        for i  in 0..k {
+        for _  in 0..k {
             let pile = binary_heap.pop().unwrap();
             binary_heap.push(pile - pile / 2);
         }

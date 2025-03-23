@@ -1,8 +1,5 @@
-use std::collections::{HashMap};
-#[allow(dead_code)]
 struct Solution;
 
-#[allow(dead_code)]
 impl Solution {
     pub fn smallest_distance_pair(nums: Vec<i32>, k: i32) -> i32 {
         let min_value = *nums.iter().min().unwrap();
