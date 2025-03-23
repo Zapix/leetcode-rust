@@ -4,7 +4,7 @@ struct Solution;
 
 #[allow(dead_code)]
 impl Solution {
-    pub fn query_results(limit: i32, queries: Vec<Vec<i32>>) -> Vec<i32> {
+    pub fn query_results(_limit: i32, queries: Vec<Vec<i32>>) -> Vec<i32> {
         let mut balls: HashMap<i32, i32> = HashMap::new();
         let mut colors: HashMap<i32, i32> = HashMap::new();
 

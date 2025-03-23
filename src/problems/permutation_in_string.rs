@@ -34,7 +34,7 @@ impl Solution {
 
         for (i, ch) in chars.iter().enumerate().skip(s1.len()) {
             let exclude_char = chars[i - s1.len()];
-            let mut val = window.get_mut(&exclude_char).unwrap();
+            let val = window.get_mut(&exclude_char).unwrap();
             *val -= 1;
             if *val == 0 {
                 window.remove(&exclude_char);

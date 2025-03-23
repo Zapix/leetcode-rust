@@ -13,7 +13,7 @@ impl Solution {
         *entry &= w;
     }
     pub fn build_graph(n: usize, edges: &Vec<Vec<i32>>) -> HashMap<usize, HashMap<usize, i32>> {
-        let mut graph = HashMap::new();
+        let mut graph = HashMap::from_iter((0..n).map(|x| (x, HashMap::new())));
         for edge in edges {
             let x = edge[0] as usize;
             let y = edge[1] as usize;

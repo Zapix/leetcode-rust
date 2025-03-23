@@ -6,7 +6,7 @@ impl Solution {
         let mut val = 0;
         for c in s.chars() {
             val <<= 1;
-            val += (c as i32 - '0' as i32);
+            val += c as i32 - '0' as i32;
         }
         val
     }

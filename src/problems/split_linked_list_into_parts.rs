@@ -12,7 +12,6 @@ impl ListNode {
     }
 }
 
-#[allow(dead_code)]
 struct Solution;
 
 impl Solution {
@@ -46,7 +45,7 @@ impl Solution {
             }
 
             result.push(dummy.next.take());
-            if (rest > 0) {
+            if rest > 0 {
                 rest -= 1;
             }
         }

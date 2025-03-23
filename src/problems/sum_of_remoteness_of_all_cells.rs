@@ -7,7 +7,7 @@ struct Solution;
 #[allow(dead_code)]
 impl Solution {
     pub fn sum_remoteness(grid: Vec<Vec<i32>>) -> i64 {
-        let mut all_values = grid.iter().flatten().filter(|x| **x > -1).map(|x| i64::from(*x)).sum::<i64>();
+        let all_values = grid.iter().flatten().filter(|x| **x > -1).map(|x| i64::from(*x)).sum::<i64>();
         let mut result = 0i64;
 
         let mut visited = HashSet::new();

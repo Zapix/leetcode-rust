@@ -29,7 +29,7 @@ impl Solution {
             if val <= prev {
                 return false;
             }
-            let mut i = match primes.binary_search(&val) {
+            let i = match primes.binary_search(&val) {
                 Ok(x) => x,
                 Err(x) => x,
             };

@@ -16,7 +16,7 @@ impl Solution {
 
         prev = &1000000001;
         let mut right_decrease = arr.len() - 1;
-        while right_decrease >= 0 && arr[right_decrease] <= *prev {
+        while arr[right_decrease] <= *prev {
             prev = &arr[right_decrease];
             right_decrease -= 1;
         }

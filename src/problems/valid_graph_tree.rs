@@ -6,7 +6,7 @@ struct DSU {
 
 impl DSU {
     pub fn new(n: usize) -> Self {
-        let mut sizes = vec![1; n];
+        let sizes = vec![1; n];
         let reps = (0..n).collect();
         Self { n, sizes, reps }
     }

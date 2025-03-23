@@ -1,4 +1,3 @@
-use crate::problems::spiral_matrix_iv::Direction::Down;
 use std::boxed::Box;
 
 #[derive(PartialEq, Eq, Clone, Debug)]

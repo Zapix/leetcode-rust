@@ -6,7 +6,7 @@ struct Solution;
 impl Solution {
     pub fn take_characters(s: String, k: i32) -> i32 {
         let chars = s.chars().collect::<Vec<_>>();
-        let mut counter = s.chars().fold(
+        let counter = s.chars().fold(
             HashMap::from([('a', 0), ('b', 0), ('c', 0)]),
             |mut cnt, item| {
                 let count = cnt.entry(item).or_insert(0);

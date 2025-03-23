@@ -34,7 +34,7 @@ impl Solution {
             c_idxs[i] = next_c;
         }
         let mut result = 0;
-        for i in (0..chars.len()) {
+        for i in 0..chars.len() {
             result += match chars[i] {
                 'a' => Solution::compute_amount(chars.len(), b_idxs[i], c_idxs[i]),
                 'b' => Solution::compute_amount(chars.len(), a_idxs[i], c_idxs[i]),

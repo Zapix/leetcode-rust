@@ -5,10 +5,10 @@ struct Solution;
 impl Solution {
     pub fn get_non_repeating_chars(s: String) -> Vec<char> {
         let mut result = vec![];
-        let mut chars = s.chars().collect::<Vec<char>>();
+        let chars = s.chars().collect::<Vec<char>>();
         result.push(chars[0]);
-        for i in (1..chars.len()) {
-            if (chars[i] == chars[(i as i32 - 1) as usize]) {
+        for i in 1..chars.len() {
+            if chars[i] == chars[(i as i32 - 1) as usize] {
                 continue
             }
             result.push(chars[i])

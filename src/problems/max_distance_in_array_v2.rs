@@ -1,8 +1,5 @@
-use std::cmp::Reverse;
-#[allow(dead_code)]
 struct Solution;
 
-#[allow(dead_code)]
 impl Solution {
     pub fn max_distance(arrays: Vec<Vec<i32>>) -> i32 {
         let mut min_value: Option<i32> = None;

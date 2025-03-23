@@ -54,7 +54,6 @@ impl Solution {
     }
 
     pub fn min_days(mut grid: Vec<Vec<i32>>) -> i32 {
-        let cnt= Self::count_islands(&grid);
         if Self::count_islands(&grid) != 1 {
             return 0
         }

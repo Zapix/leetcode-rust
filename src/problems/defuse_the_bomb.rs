@@ -1,9 +1,7 @@
 use std::cmp::Ordering;
 
-#[allow(dead_code)]
 struct Solution;
 
-#[allow(dead_code)]
 impl Solution {
     pub fn decrypt(code: Vec<i32>, k: i32) -> Vec<i32> {
         let mut sums = vec![];
@@ -13,7 +11,7 @@ impl Solution {
             sums.push(sum);
         }
         match k.cmp(&0) {
-            Ordering::Equal => (0..code.len()).map(|x| 0).collect::<Vec<i32>>(),
+            Ordering::Equal => (0..code.len()).map(|_| 0).collect::<Vec<i32>>(),
             Ordering::Less => (0..code.len())
                 .map(|x| {
                     if (x as i32 + k) > 0 {

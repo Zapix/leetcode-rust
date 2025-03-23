@@ -1,10 +1,7 @@
 use std::collections::HashSet;
-use std::env::var;
 
-#[allow(dead_code)]
 struct Solution;
 
-#[allow(dead_code)]
 impl Solution {
     pub fn count_palindromic_subsequence(s: String) -> i32 {
         let mut first = vec![None; 26];

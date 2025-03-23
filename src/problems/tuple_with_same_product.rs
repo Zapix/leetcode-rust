@@ -1,8 +1,6 @@
-use std::collections::{HashMap, HashSet};
-#[allow(dead_code)]
+use std::collections::HashMap;
 struct Solution;
 
-#[allow(dead_code)]
 impl Solution {
     pub fn tuple_same_product(nums: Vec<i32>) -> i32 {
         let mut product_map = HashMap::new();

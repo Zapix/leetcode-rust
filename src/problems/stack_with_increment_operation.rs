@@ -9,9 +9,9 @@ struct CustomStack {
  * If you need a mutable reference, change it to `&mut self` instead.
  */
 impl CustomStack {
-    fn new(maxSize: i32) -> Self {
+    fn new(max_size: i32) -> Self {
         Self {
-            capacity: maxSize,
+            capacity: max_size,
             stack: Vec::new(),
         }
     }

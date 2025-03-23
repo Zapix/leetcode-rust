@@ -53,7 +53,7 @@ mod tests {
 
     fn array_to_linked_list(arr: &[i32]) -> Option<Box<ListNode>> {
         let mut head: Option<Box<ListNode>> = None;
-        let mut current = &mut head;
+        let current = &mut head;
 
         for &val in arr.iter().rev() {
             let new_node = Box::new(ListNode {
