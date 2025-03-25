@@ -11,6 +11,7 @@ mod bus_routes;
 mod check_if_a_parentheses_string_can_be_valid;
 mod check_if_array_is_sorted_and_rotated;
 mod check_if_array_pairs_divisble_by_k;
+mod check_if_grid_can_be_cut_into_sections;
 mod check_if_number_is_a_sum_of_powers_of_three;
 mod check_if_word_occurs_in_a_string_as_prefix;
 mod circular_sentence;
