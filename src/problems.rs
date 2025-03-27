@@ -127,6 +127,7 @@ mod minimum_cost_of_tickets;
 mod minimum_cost_to_make_valid_path;
 mod minimum_cost_wal_in_weighted_graph;
 mod minimum_deletions_to_make_string_balanced;
+mod minimum_index_of_a_valid_split;
 mod minimum_length_of_string_after_operations;
 mod minimum_limit_of_balls_in_a_bag;
 mod minimum_number_of_changes_to_make_binary_string_beautiful;
