@@ -188,6 +188,7 @@ mod shortest_subarray_to_be_removed_to_make_array_sorted;
 mod shortest_subarray_with_or_at_least_k_ii;
 mod sliding_puzzle;
 mod smallest_range_covering_elements_from_k_lists;
+mod solving_questions_with_brainpower;
 mod sort_vowels_in_a_string;
 mod special_array_ii;
 mod spiral_matrix_iii;
