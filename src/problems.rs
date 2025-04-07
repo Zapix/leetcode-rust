@@ -203,6 +203,7 @@ mod stranger_printer;
 mod strictly_increasing_or_decreasing_sequence;
 mod string_compression_iii;
 mod string_matching_in_array;
+mod sum_of_all_subset_xor_totals;
 mod sum_of_digits_of_string;
 mod sum_of_prefix_scores_of_strings;
 mod sum_of_remoteness_of_all_cells;
