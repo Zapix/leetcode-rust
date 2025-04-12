@@ -58,6 +58,7 @@ mod find_if_array_can_be_sorted;
 mod find_k_length_substrings_with_no_repeated_characters;
 mod find_missing_and_repeated_values;
 mod find_missing_observations;
+mod find_the_coutn_of_good_integers;
 mod find_the_length_of_the_longest_common_prefix;
 mod find_the_number_of_distintc_colors;
 mod find_the_prefix_common_array_of_two_arrays;
