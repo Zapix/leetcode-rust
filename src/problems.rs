@@ -24,6 +24,7 @@ mod continuous_subarrays;
 mod convert_1d_array_into_2d_array;
 mod count_bad_pairs;
 mod count_days_without_meetings;
+mod count_good_numbers;
 mod count_number_of_teams;
 mod count_number_or_maximum_bitwise_or_subset;
 mod count_os_substrings_containing_every_vowel_and_consonants_ii;
