@@ -36,6 +36,7 @@ mod count_symmetric_integers;
 mod count_the_number_of_complete_components;
 mod count_the_number_of_consistent_strings;
 mod count_the_number_of_fair_pairs;
+mod count_the_number_of_good_subarrays;
 mod count_unguarded_cells_in_the_grid;
 mod count_vowel_strings_in_ranges;
 mod count_ways_to_build_a_good_string;
