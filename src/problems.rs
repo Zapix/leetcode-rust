@@ -176,6 +176,7 @@ mod perform_string_shifts;
 mod permutation_in_string;
 mod prime_subtraction_operation;
 mod product_of_the_last_k_numbers;
+mod rabbits_in_forest;
 mod range_sum_of_sorted_sub_arrays_sums;
 mod rangk_transform_of_array;
 mod redundant_connection;
