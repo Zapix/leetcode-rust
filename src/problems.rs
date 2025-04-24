@@ -23,6 +23,7 @@ mod construct_k_palindrome_strings;
 mod continuous_subarrays;
 mod convert_1d_array_into_2d_array;
 mod count_bad_pairs;
+mod count_complete_subarrays_in_an_array;
 mod count_days_without_meetings;
 mod count_equal_and_divisible_pairs_in_an_array;
 mod count_good_numbers;
