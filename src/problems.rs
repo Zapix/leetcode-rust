@@ -131,6 +131,7 @@ mod minim_swaps_to_group_all_ones_together;
 mod minimium_numbers_to_write_word_ii;
 mod minimize_maximum_of_products;
 mod minimize_maximum_pair_sum_in_array;
+mod minimize_the_maximum_difference_of_pairs;
 mod minimize_xor;
 mod minimum_add_to_make_paranthesis_valid;
 mod minimum_array_end;
