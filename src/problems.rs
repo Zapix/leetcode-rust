@@ -114,6 +114,7 @@ mod maximal_score_after_applying_k_operations;
 mod maximum_absolute_sum_of_any_subarray;
 mod maximum_beauty_of_an_array_after_applying_operation;
 mod maximum_candies_allocated_to_k_children;
+mod maximum_difference_by_remapping_a_digit;
 mod maximum_element_after_decrementing_and_rearranging;
 mod maximum_matrix_sum;
 mod maximum_number_of_fish_in_a_grid;
