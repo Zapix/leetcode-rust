@@ -107,6 +107,7 @@ mod make_two_arrays_equal_by_reversing;
 mod making_a_large_island;
 mod map_of_highest_peak;
 mod max_consecutive_ones;
+mod max_difference_you_can_get_from_changing_an_integer;
 mod max_distance_in_array;
 mod max_distance_in_array_v2;
 mod max_sum_of_a_pair_number_with_equal_sum_of_digits;
