@@ -50,6 +50,7 @@ mod delete_nodes_form_linked_list;
 mod design_circulare_deque;
 mod different_ways_to_add_parantheses;
 mod distinct_numbers_in_each_subarray;
+mod divide_array_into_arrays_with_max_difference;
 mod divide_intervals_into_minimum_number_of_groups;
 mod divide_players_into_teams_of_equal_skill;
 mod extra_characters_in_string;
