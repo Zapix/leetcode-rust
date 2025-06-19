@@ -175,6 +175,7 @@ mod number_of_ways_to_arrive_at_destination;
 mod number_of_ways_to_form_a_target;
 mod number_of_ways_to_split_array;
 mod partition_array_according_to_given_pivot;
+mod partition_array_such_that_maximum_difference_is_k;
 mod partition_equal_subset_sum;
 mod partition_labels;
 mod path_max_probability;
