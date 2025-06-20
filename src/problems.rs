@@ -118,6 +118,7 @@ mod maximum_beauty_of_an_array_after_applying_operation;
 mod maximum_candies_allocated_to_k_children;
 mod maximum_difference_by_remapping_a_digit;
 mod maximum_element_after_decrementing_and_rearranging;
+mod maximum_manhattan_distance_after_k_changes;
 mod maximum_matrix_sum;
 mod maximum_number_of_fish_in_a_grid;
 mod maximum_number_of_moves_in_a_grid;
