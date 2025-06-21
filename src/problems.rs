@@ -131,6 +131,7 @@ mod maximum_value_of_an_ordered_triplet_i;
 mod maximum_width_ramp;
 mod maximum_xor_for_each_query;
 mod merge_two_two_d_arrays_by_summin_values;
+mod minimum_deletions_to_make_string_k_special;
 mod minim_swaps_to_group_all_ones_together;
 mod minimium_numbers_to_write_word_ii;
 mod minimize_maximum_of_products;
