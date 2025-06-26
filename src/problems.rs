@@ -92,6 +92,7 @@ mod lemonade_change;
 mod length_of_longest_fibonacci_subsequence;
 mod lexical_order_numbers;
 mod linked_list_in_binary_tree;
+mod longest_binary_subsequence_less_than_or_equal_to_k;
 pub mod longest_common_prefix;
 mod longest_happy_string;
 mod longest_nice_subarray;
