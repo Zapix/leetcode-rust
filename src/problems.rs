@@ -175,6 +175,7 @@ mod number_complement;
 mod number_container;
 mod number_of_senior_citizens;
 mod number_of_subarrys_with_odd_sum;
+mod number_of_subsequences_that_satisfy_the_given_sum_condition;
 mod number_of_substrings_containing_all_three_characters;
 mod number_of_ways_to_arrive_at_destination;
 mod number_of_ways_to_form_a_target;
