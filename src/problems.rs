@@ -68,6 +68,7 @@ mod find_subarrays_with_fixed_bounds;
 mod find_subsequence_of_length_k_with_the_largest_sum;
 mod find_the_coutn_of_good_integers;
 mod find_the_k_th_character_in_string_game_i;
+mod find_the_k_th_character_in_string_game_ii;
 mod find_the_length_of_the_longest_common_prefix;
 mod find_the_number_of_distintc_colors;
 mod find_the_prefix_common_array_of_two_arrays;
