@@ -75,6 +75,7 @@ mod find_the_prefix_common_array_of_two_arrays;
 mod find_the_student_that_will_replace_chalk;
 mod find_unique_binary_string;
 mod find_words_than_can_be_formed;
+mod finding_pairs_with_a_certain_sum;
 mod first_completely_painted_row_or_column;
 mod flip_columns_for_maximum_number_of_equal_rows;
 mod flip_equivalient_binary_trees;
