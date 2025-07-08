@@ -128,6 +128,7 @@ mod maximum_element_after_decrementing_and_rearranging;
 mod maximum_manhattan_distance_after_k_changes;
 mod maximum_matrix_sum;
 mod maximum_number_of_events_that_can_be_attended;
+mod maximum_number_of_events_that_can_be_attended_ii;
 mod maximum_number_of_fish_in_a_grid;
 mod maximum_number_of_moves_in_a_grid;
 mod maximum_number_of_points_from_grid_queries;
