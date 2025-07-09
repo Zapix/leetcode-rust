@@ -204,6 +204,7 @@ mod remove_all_occurrences_of_a_substring;
 mod remove_element;
 mod remove_stones_to_minimize_total;
 mod remove_sub_folders_from_the_fs;
+mod reschedule_meetings_for_maximum_free_time_i;
 pub mod reverse_string;
 mod rotate_string;
 mod rotating_the_box;
