@@ -25,6 +25,7 @@ mod convert_1d_array_into_2d_array;
 mod count_bad_pairs;
 mod count_complete_subarrays_in_an_array;
 mod count_days_without_meetings;
+mod maximum_matching_of_players_with_trainers;
 mod count_equal_and_divisible_pairs_in_an_array;
 mod count_good_numbers;
 mod count_number_of_teams;
