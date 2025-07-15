@@ -250,6 +250,7 @@ mod unique_length_3_palindromic;
 mod unique_length_3_palindromic_v2;
 mod unique_substrings_with_equal_digit_frequency;
 mod valid_graph_tree;
+mod valid_word;
 mod walking_robot_simulation;
 mod word_subsets;
 mod xor_queries_of_subarray;
