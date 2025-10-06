@@ -237,6 +237,7 @@ mod sum_of_digits_of_string;
 mod sum_of_k_mirror_numbers;
 mod sum_of_prefix_scores_of_strings;
 mod sum_of_remoteness_of_all_cells;
+mod swim_in_rising_water;
 mod take_gifts_from_the_richest_pile;
 mod take_k_of_each_characters_from_left_and_right;
 mod the_number_os_smallest_unoccupied_chair;
