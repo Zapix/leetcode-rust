@@ -71,6 +71,7 @@ mod find_the_coutn_of_good_integers;
 mod find_the_k_th_character_in_string_game_i;
 mod find_the_k_th_character_in_string_game_ii;
 mod find_the_length_of_the_longest_common_prefix;
+mod find_the_minimum_amount_of_time_to_brew_potions;
 mod find_the_number_of_distintc_colors;
 mod find_the_prefix_common_array_of_two_arrays;
 mod find_the_student_that_will_replace_chalk;
