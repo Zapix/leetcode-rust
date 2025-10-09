@@ -18,7 +18,6 @@ impl Solution {
             for j in 0..skill.len() {
                 prev_times[j + 1] = prev_times[j] + (m * skill[j]) as i64;
             }
-            println!("{:?}", prev_times);
         }
         prev_times[skill.len()]
     }
