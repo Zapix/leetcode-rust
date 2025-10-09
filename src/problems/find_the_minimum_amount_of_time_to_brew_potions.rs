@@ -5,7 +5,7 @@ impl Solution {
         let mut prev_times = vec![0i64; skill.len() + 1];
         let mut current_times = vec![0i64; skill.len() + 1];
 
-        for (_, &m) in mana.iter().enumerate() {
+        for &m in &mana {
             for j in (0..=skill.len()).rev() {
                 if j == skill.len() {
                     current_times[j] = prev_times[j] + (m * skill[j - 1]) as i64;
