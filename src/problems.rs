@@ -75,6 +75,7 @@ mod find_the_minimum_amount_of_time_to_brew_potions;
 mod find_the_number_of_distintc_colors;
 mod find_the_prefix_common_array_of_two_arrays;
 mod find_the_student_that_will_replace_chalk;
+mod find_resultant_array_after_removing_anagrams;
 mod find_unique_binary_string;
 mod find_words_than_can_be_formed;
 mod finding_pairs_with_a_certain_sum;
