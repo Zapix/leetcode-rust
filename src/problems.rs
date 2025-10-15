@@ -1,5 +1,6 @@
 mod adding_spaces_to_a_string;
 mod adjacent_increasing_subarrays_detection_i;
+mod adjacent_increasing_subarrays_detection_ii;
 mod all_one;
 mod alternating_groups_ii;
 mod apply_operations_to_an_array;
