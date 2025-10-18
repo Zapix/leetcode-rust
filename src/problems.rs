@@ -133,6 +133,7 @@ mod maximum_element_after_decrementing_and_rearranging;
 mod maximum_manhattan_distance_after_k_changes;
 mod maximum_matching_of_players_with_trainers;
 mod maximum_matrix_sum;
+mod maximum_number_of_distinct_elements_after_operations;
 mod maximum_number_of_events_that_can_be_attended;
 mod maximum_number_of_events_that_can_be_attended_ii;
 mod maximum_number_of_fish_in_a_grid;
