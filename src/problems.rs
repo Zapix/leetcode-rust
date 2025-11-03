@@ -177,6 +177,7 @@ mod minimum_operations_to_make_binary_array_equal_to_all_ones;
 mod minimum_size_subarray_sum;
 mod minimum_string_length_after_removing_substrings;
 mod minimum_time_difference;
+mod minimum_time_to_make_rope_colorful;
 mod minimum_time_to_repair_cars;
 mod minmum_operations_to_exceed_threshold_iii;
 mod modify_graph_edge_weights;
