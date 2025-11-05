@@ -82,6 +82,7 @@ mod find_the_student_that_will_replace_chalk;
 mod find_unique_binary_string;
 mod find_words_than_can_be_formed;
 mod find_x_sum_of_all_k_long_subarrays_i;
+mod find_x_sum_of_all_k_long_subarrays_ii;
 mod finding_pairs_with_a_certain_sum;
 mod first_completely_painted_row_or_column;
 mod flip_columns_for_maximum_number_of_equal_rows;
