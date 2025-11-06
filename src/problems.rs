@@ -206,6 +206,7 @@ mod partition_labels;
 mod path_max_probability;
 mod perform_string_shifts;
 mod permutation_in_string;
+mod power_grid_maintenance;
 mod prime_subtraction_operation;
 mod product_of_the_last_k_numbers;
 mod rabbits_in_forest;
