@@ -128,6 +128,7 @@ mod max_distance_in_array;
 mod max_distance_in_array_v2;
 mod max_sum_of_a_pair_number_with_equal_sum_of_digits;
 mod maximal_score_after_applying_k_operations;
+mod maximize_the_minimum_powered_city;
 mod maximum_absolute_sum_of_any_subarray;
 mod maximum_beauty_of_an_array_after_applying_operation;
 mod maximum_candies_allocated_to_k_children;
