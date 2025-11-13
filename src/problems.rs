@@ -143,6 +143,7 @@ mod maximum_number_of_events_that_can_be_attended;
 mod maximum_number_of_events_that_can_be_attended_ii;
 mod maximum_number_of_fish_in_a_grid;
 mod maximum_number_of_moves_in_a_grid;
+mod maximum_number_of_operations_to_move_ones_to_the_end;
 mod maximum_number_of_points_from_grid_queries;
 mod maximum_number_of_points_with_cost;
 mod maximum_score_after_splitting_a_string;
