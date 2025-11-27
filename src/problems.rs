@@ -149,6 +149,7 @@ mod maximum_number_of_points_from_grid_queries;
 mod maximum_number_of_points_with_cost;
 mod maximum_score_after_splitting_a_string;
 mod maximum_size_subarray_sum_equals_k;
+mod maximum_subarray_sum_with_length_divisible_by_k;
 mod maximum_sum_of_distinct_subarrays_with_length_k;
 mod maximum_total_damage_with_spell_casting;
 mod maximum_value_of_an_ordered_triplet_i;
